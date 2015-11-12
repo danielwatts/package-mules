@@ -52,7 +52,6 @@
 	<?php include 'includes/footer.html';?>
 	<?php include 'includes/scripts.html';?>
 	<script>
-		<script>
 		window.addEventListener('load', function() {
 		    var editor;
 
@@ -101,7 +100,6 @@
 		});
 	});
 
-	</script>
 	</script>
 
 </html>

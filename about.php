@@ -50,7 +50,6 @@
 	<?php include 'includes/footer.html';?>
 	<?php include 'includes/scripts.html';?>
 	<script>
-<script>
 		window.addEventListener('load', function() {
 		    var editor;
 
@@ -98,8 +97,6 @@
 		    var_dump($_POST); 
 		});
 	});
-
-	</script>
 	</script>
 
 </html>
