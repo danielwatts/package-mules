@@ -107,8 +107,6 @@
 		    xhr.addEventListener('readystatechange', onStateChange);
 		    xhr.open('POST', '/index.php');
 		    xhr.send(payload);
-
-		    var_dump($_POST); 
 		});
 	});
 

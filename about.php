@@ -93,8 +93,6 @@
 		    xhr.addEventListener('readystatechange', onStateChange);
 		    xhr.open('POST', '/about.php');
 		    xhr.send(payload);
-
-		    var_dump($_POST); 
 		});
 	});
 	</script>

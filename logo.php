@@ -96,7 +96,6 @@
 		    xhr.open('POST', '/logo.php');
 		    xhr.send(payload);
 
-		    var_dump($_POST); 
 		});
 	});
 
