@@ -1,3 +1,11 @@
+<?php 
+	if (!empty($_POST)) { // check for POST array
+		foreach ($_POST as $key => $value) { // go through every POST element
+			file_put_contents($key . '.html', $value); // save file
+		} // foreach end
+	} // if end
+?>
+
 <!DOCTYPE hmtl>
 <html lang="en">
 <?php include 'includes/head.html';?>
@@ -20,30 +28,10 @@
 				<h2>The thing you hate most about moving is?</h2>
 			</div>
 			<div class="col-md-12">
-				<div data-editable data-name="moving-1">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
-				</div>
-				<div data-editable data-name="moving-2">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
-				</div>
-				<div data-editable data-name="moving-3">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
-				</div>
-				<div data-editable data-name="moving-4">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
-				</div>
+				<?php include 'editable/index/moving-1.html'; ?>
+				<?php include 'editable/index/moving-2.html'; ?>
+				<?php include 'editable/index/moving-3.html'; ?>
+				<?php include 'editable/index/moving-4.html'; ?>
 				<div data-editable data-name="moving-5">
     				<blockquote>
         				[Enter content here]
