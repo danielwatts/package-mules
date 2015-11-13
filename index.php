@@ -1,7 +1,7 @@
 <?php 
 	if (!empty($_POST)) { // check for POST array
 		foreach ($_POST as $key => $value) { // go through every POST element
-			file_put_contents($key . '.html', $value); // save file
+			file_put_contents('editable/index/' . $key . '.html', $value); // save file
 		} // foreach end
 	} // if end
 ?>
