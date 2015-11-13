@@ -27,23 +27,21 @@
 			<div class="col-md-12">
 				<h2>The thing you hate most about moving is?</h2>
 			</div>
+
 			<div class="col-md-12">
-				<?php include 'editable/index/moving-1.html'; ?>
-				<?php include 'editable/index/moving-2.html'; ?>
-				<?php include 'editable/index/moving-3.html'; ?>
-				<?php include 'editable/index/moving-4.html'; ?>
-				<div data-editable data-name="moving-5">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
+				<div data-editable data-name="moving-1">
+					<?php include 'editable/index/moving-1.html'; ?>
 				</div>
-				<div data-editable data-name="moving-6">
-    				<blockquote>
-        				[Enter content here]
-    				</blockquote>
-    				<p>[your name]</p>
+				<div data-editable data-name="moving-2">
+					<?php include 'editable/index/moving-2.html'; ?>
 				</div>
+				<div data-editable data-name="moving-3">
+					<?php include 'editable/index/moving-3.html'; ?>
+				</div>
+				<div data-editable data-name="moving-4">
+					<?php include 'editable/index/moving-4.html'; ?>
+				</div>
+
 			</div>
 		</div>
 
